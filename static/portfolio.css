@@ -1,0 +1,80 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+#wrapper{
+    background-image: url("/webBackground.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+}
+.header{
+    padding-top: 15px;
+    text-align: right;
+    margin-right: 20px;
+}
+a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+span{
+    color: #a7a1a1;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: .25px .25px black;
+}
+.git{
+    width: 100px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    display: inline-block;
+    
+  }
+.linkedin{
+    margin-left: 38%;
+    width: 100px;
+    height: 90px;
+    margin-bottom: 20px;
+    display: inline-block;
+  } 
+.projects{
+    color: black;
+    margin-left: 30%;
+    padding-top: 6%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .projects h2{
+    margin-left: 20%;
+  }
+  .other{
+    color: black;
+    margin-left: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .other h2{
+      margin-left: 17%;
+  }
+  @media only screen and (max-width: 750px){
+    iframe{
+        width: 300px;
+        height: 150px;
+    }
+    .projects{
+        margin-left: 12%;
+        padding-top: 33%;
+    }
+    .other{
+        margin-left: 12%
+    }
+    .git{
+        margin-left: 20%;
+    }
+    .linkedin{
+        margin-left: 20%;
+    }
+    span{
+        font-size: 11px;
+    }
+}

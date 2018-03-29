@@ -1,0 +1,47 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+#wrapper{
+    background-image: url("/webBackground.jpg");
+    height: 100%;
+    max-width: 1600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    padding-top: 15px;
+    text-align: right;
+    margin-right: 20px;
+}
+a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+span{
+    color: #a7a1a1;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: .25px .25px black;
+}
+.content{
+    margin-top: 19%;
+    color: #e0e0e0;
+}
+.text{
+    text-shadow: .5px .5px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;   
+}
+@media only screen and (max-width: 750px){
+    span{
+        font-size: 11px;
+    }
+    .content{
+        margin-top: 65%;
+    }
+    #wrapper{
+        width: 100%;
+    }
+}
